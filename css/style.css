@@ -1,0 +1,88 @@
+*{
+    padding:0;
+    margin:0;
+}
+.cards{
+    width:1200px;
+    margin: auto;
+}
+.fullCard{
+    width:24%;
+    margin-top:50px;
+    margin-left:50px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    font-family: arial;
+    box-shadow: 0px 1px 10px 1px black;
+    box-sizing: border-box;
+    display: block;
+    display: inline-block;
+
+
+
+}
+.fullCard:hover{
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+}
+
+
+.image .img{
+    width:288px;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 20px;
+   
+   
+    
+}
+.title .htt-equiv{
+    margin-top:50px;
+    color:red;
+}
+
+.title h2{
+    margin-top: 5px;
+}
+.title p{
+    margin-top:10px;
+    padding:20px;
+    font-size:15px;
+    color:#2b2a2d;
+    opacity: .6;
+   font-weight: bolder;
+  
+   font-family: 'Courier New', Courier, monospace;
+   
+}
+
+.tex-day{
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,233,253,0.020045518207282953) 50%, rgba(252,176,69,1) 100%);
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+    height:50px;
+    
+}
+
+.tex-day{
+    display: inline-block;
+    display: flex;
+}
+
+.tex-day .tex-s{
+    
+    text-align: center;
+    position:center;
+    font-size: small;
+    width:90px;
+    margin: auto;
+    color:rgba(34, 4, 203, 0.816);
+}
+#ra{
+    border-left:2px solid  rgb(248, 251, 251);
+    border-right:2px solid white;
+    
+
+}
